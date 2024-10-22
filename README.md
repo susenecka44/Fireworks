@@ -1,43 +1,47 @@
 # 08-Fireworks
 
-**Autor:** Julie Vondráčková
+**Author:** Julie Vondráčková
 
-## Přehled
-Projekt "08-Fireworks" je simulace navržená pro generování a animaci různých typů efektů ohňostrojů s využitím systémů částic. Zahrnuje různé typy částic, včetně raket a explozí, pro vytvoření živých a dynamických displejů ohňostrojů.
+## Overview
+This task was moved from private repository for Master's studies application process. The outline was provided by our course teacher Josef Pelikán for course NPGR003 at Charles University, Prague in 2023
 
-## Definice Částic
-Systém definuje abstraktní základní třídu `Particle`, která zapouzdřuje společné vlastnosti a chování částic ohňostrojů, jako jsou pozice, barva, velikost a rychlost. Odvozené třídy, jako jsou `RocketParticle` a `ExplosionParticle`, specializují tuto základní třídu pro reprezentaci specifických typů komponent ohňostrojů, každý s unikátními chováními a vizuálními efekty.
+The "08-Fireworks" project is a simulation designed to generate and animate various types of firework effects using particle systems. It includes different types of particles, such as rockets and explosions, to create vibrant and dynamic firework displays.
 
-## Simulační Engine
-Jádrem projektu je třída `Simulation`, která spravuje životní cyklus všech částic v systému. Je zodpovědná za inicializaci systému částic, simulaci dynamiky částic v čase a zpracování generování nových částic pro nahrazení těch, které vypršely. Simulace podporuje různé vzory explozí (např. sféra, krychle) a dynamicky upravuje vlastnosti částic pro dosažení realistických efektů ohňostrojů.
+## Particle Definition
+The system defines an abstract base class called `Particle`, which encapsulates the common properties and behaviors of fireworks particles, such as position, color, size, and velocity. Derived classes, such as `RocketParticle` and `ExplosionParticle`, specialize this base class to represent specific firework components, each with unique behaviors and visual effects.
 
-## Příkazové Argumenty
-Projekt explicitně nedefinuje příkazové argumenty. Je navržen tak, aby byl integrovatelný do aplikací, které mohou programově ovládat a zobrazovat simulaci.
+## Simulation Engine
+The core of the project is the `Simulation` class, which manages the life cycle of all particles in the system. It is responsible for initializing the particle system, simulating particle dynamics over time, and handling the generation of new particles to replace those that have expired. The simulation supports various explosion patterns (e.g., sphere, cube) and dynamically adjusts particle properties to achieve realistic firework effects.
 
-## Vstupní Data
-Vstupní data jsou dodána v .json souboru, jež byl součástí původního příkladu řešení
+## Command-line Arguments
+The project does not explicitly define command-line arguments. It is designed to be integrated into applications that can programmatically control and display the simulation.
 
-## Algoritmus
-Simulace následuje tyto kroky pro animaci ohňostrojů:
-1. Inicializace simulace s předdefinovaným počtem částic.
-2. V každém kroku simulace aktualizuje pozice částic na základě jejich rychlostí a aplikuje stárnutí pro snížení jejich velikosti a vyblednutí jejich barev v čase.
-3. Odebrání částic, které dosáhly konce svého životního cyklu.
-4. Představení nových částic pro nahrazení těch, které vypršely, včetně spouštění nových raket a generování explozí na konci trajektorií raket.
-5. Dynamické úpravy vlastností částic pro simulaci různých vzorů explozí a efektů.
+## Input Data
+The input data is provided in a .json file, which was part of the original solution example.
 
-## Extra Práce / Bonusy
-Odpalování raketek při stisku mezerníku.
+## Algorithm
+Initialize the simulation with a predefined number of particles.
+1. In each simulation step, it updates the positions of the particles based on their velocities and applies aging to reduce their size and fade their colors over time.
+2. Remove particles that have reached the end of their life cycle.
+3. Introduce new particles to replace expired ones, including launching new rockets and generating explosions at the end of the rockets' trajectories.
+4. Dynamically adjust particle properties to simulate different explosion patterns and effects.
 
-
-Celkem 3 různé druhy explozí - kulová, krychlová a "splash".
+## Extra Features / Bonuses
+Launching rockets by pressing the space bar.
 
 
-Je to hezky barevné.
+Three different types of explosions: spherical, cubic, and "splash."
 
 
-Raketky se s časem zpomalují.
+It's nicely colorful.
 
-## Použití AI
-1. [pomoc s typy explozí](https://chat.openai.com/share/0e7d8966-418b-4ad5-96c8-4735d2665210)
 
-2. [psaní dokumentace :)](https://chat.openai.com/share/99b490be-2252-4571-8081-5a29199acc3a)
+Rockets slow down over time.
+
+
+
+
+## Use of AI
+1. [help with explosion types](https://chat.openai.com/share/0e7d8966-418b-4ad5-96c8-4735d2665210)
+
+2. [writing documentation :)](https://chat.openai.com/share/99b490be-2252-4571-8081-5a29199acc3a)
