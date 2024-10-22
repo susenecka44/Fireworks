@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "dgSpecHash": "WpNiLCbXvNZZ4Lv0OgPP0ROJq/pmO1pGV02Mivhos9snf91hVMPh+mps7ejHs6J8iSmvSV3VqTX5eKToWu2f4A==",
+  "success": true,
+  "projectFilePath": "E:\\MFF\\Grafika\\Fireworks\\08-Fireworks\\08-Fireworks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Melounek\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net\\2.19.0\\silk.net.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.core\\2.19.0\\silk.net.core.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.glfw\\2.19.0\\silk.net.glfw.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.input\\2.19.0\\silk.net.input.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.input.common\\2.19.0\\silk.net.input.common.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.input.glfw\\2.19.0\\silk.net.input.glfw.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.input.sdl\\2.19.0\\silk.net.input.sdl.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.maths\\2.19.0\\silk.net.maths.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.openal\\2.19.0\\silk.net.openal.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.opengl\\2.19.0\\silk.net.opengl.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.sdl\\2.19.0\\silk.net.sdl.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.vulkan\\2.19.0\\silk.net.vulkan.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.vulkan.extensions.khr\\2.19.0\\silk.net.vulkan.extensions.khr.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.windowing\\2.19.0\\silk.net.windowing.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.windowing.common\\2.19.0\\silk.net.windowing.common.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.windowing.glfw\\2.19.0\\silk.net.windowing.glfw.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\silk.net.windowing.sdl\\2.19.0\\silk.net.windowing.sdl.2.19.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\sixlabors.imagesharp\\3.0.2\\sixlabors.imagesharp.3.0.2.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\ultz.native.glfw\\3.3.9.2\\ultz.native.glfw.3.3.9.2.nupkg.sha512",
+    "C:\\Users\\Melounek\\.nuget\\packages\\ultz.native.sdl\\2.28.4\\ultz.native.sdl.2.28.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček „SixLabors.ImageSharp“ 3.0.2 má známé střední ohrožení zabezpečení závažnosti, https://github.com/advisories/GHSA-5x7m-6737-26cr",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček „SixLabors.ImageSharp“ 3.0.2 má známé vysoké ohrožení zabezpečení závažnosti, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček „SixLabors.ImageSharp“ 3.0.2 má známé vysoké ohrožení zabezpečení závažnosti, https://github.com/advisories/GHSA-65x7-c272-7g7r",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček „SixLabors.ImageSharp“ 3.0.2 má známé střední ohrožení zabezpečení závažnosti, https://github.com/advisories/GHSA-g85r-6x2q-45w7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček „SixLabors.ImageSharp“ 3.0.2 má známé střední ohrožení zabezpečení závažnosti, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
